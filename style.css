@@ -1,0 +1,13 @@
+*{
+    margin:0px;
+}
+
+.card {
+    color:white;
+    width:250px;
+    background-color: blueviolet;
+    padding: 20px;
+    margin:10px;
+    display: inline-block;
+    
+}
