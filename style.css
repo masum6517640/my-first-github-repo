@@ -2,12 +2,28 @@
     margin:0px;
 }
 
+.card h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Aestera', sans-serif;
+    src: url('fonts/Aestera.ttf') format('truetype');
+    
+}
+
 .card {
     color:white;
+    
     width:250px;
     background-color: blueviolet;
     padding: 20px;
     margin:10px;
     display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    transition: transform 0.2s;
     
+}
+.card:hover {
+    transform: scale(1.05);
 }
